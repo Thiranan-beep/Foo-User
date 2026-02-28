@@ -21,7 +21,7 @@ const Todo = () => {
 
   return (
     <ul>
-      {todos.map((todos) => (<li key={todos.id}>{todos.name}</li>
+      {todos.map((todos) => (<li key={todos.id}>{todos.title}</li>
       ))}
     </ul>
   );
